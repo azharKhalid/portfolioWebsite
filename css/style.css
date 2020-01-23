@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Khula:800&display=swap');
+body {
+    font-family: 'Khula', sans-serif;
+    position: relative;
+}
+.navbar-brand {
+    border: 5px solid black;
+    padding: 10px;
+}
+h1 {
+    color: white;
+    font-size: 6vw;
+    padding-top: 6%;
+    padding-left: 10%;
+    animation: shake;
+}
+.mainDiv p {
+    color: white;
+    margin-left: 9vw;
+    font-size: 3vw;
+    padding-bottom: 15px;
+}
+h2{
+    text-align: center;
+    font-size: 6vw;
+}
+.animate {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+    display: inline-block;
+}
+.animate:hover {
+    color: rgb(0, 255, 216);
+    animation-name: rubberBand;
+}
+.mainDiv{
+    background-position: center;
+    background-repeat: no-repeat;    
+    background-image: url("../img/mainBg.jpg");
+    background-size: contain;
+    background-size: cover;
+}
+.col-sm-3 {
+    margin: 30px auto;
+    border: 3px solid #79FAF5;
+    text-align: center;
+    width: 25vw;
+    height: 25vh;
+    padding-top: 55px;
+    font-size: 3.5vw;
+    border-radius: 50%;
+}
+.col-sm-3:hover {
+    background-color: black;
+    color: white;
+}
+.contactMe {
+    width: 85vw;
+    height: 50vh;
+    margin: 20px auto;
+    padding-top: 10px;
+    color: white;
+    text-align: center;
+    background-color: #6e320f;
+}
+.links {
+    border-bottom: 1px solid white;
+    padding-top: 20px;
+}
+.lastLink {
+    padding-top: 20px;
+}
+.aTags {
+    color: white;
+    color: inherit;
+}
+.aTags:hover {
+    text-decoration: none;
+    color: white;
+}
+.email {
+    margin-top: 110px;
+}
